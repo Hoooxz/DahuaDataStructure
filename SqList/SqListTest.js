@@ -36,7 +36,7 @@ console.log(list.find(1));
 
 console.info('\n6. Delete [0]: ');
 
-list.delete(1)
+list.delete(0)
 
 list.print()
 
