@@ -19,3 +19,5 @@ graph.addEdge(3, 0, 50);
 graph.addEdge(3, 2, 1);
 
 graph.print();
+
+graph.DFS();

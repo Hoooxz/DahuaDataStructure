@@ -1,5 +1,7 @@
 /** 邻接矩阵 */
 
+var DFS = require('./DFS');
+
 var INFINITY = 65536; // 表示无穷大，用于有权边时的无边表示
 
 module.exports = function () {
@@ -70,6 +72,11 @@ module.exports = function () {
       graph.arc[j][i] = w;
 
       graph.numEdges++;
+    },
+
+    /** 深度优先遍历 */
+    DFS: function () {
+      DFS.MGraphTraverse(graph);
     },
 
     print: function () {

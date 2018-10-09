@@ -1,5 +1,7 @@
 /** 邻接表 */
 
+var DFS = require('./DFS');
+
 /**
  * 创建一个边表结点
  *
@@ -95,6 +97,11 @@ module.exports = function () {
       graph.adjList[j].firstedge = edgeNodeI;
 
       graph.numEdges++;
+    },
+
+    /** 深度优先遍历 */
+    DFS: function () {
+      DFS.ALGraphTraverse(graph);
     },
 
     print: function () {
