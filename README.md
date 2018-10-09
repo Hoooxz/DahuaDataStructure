@@ -17,3 +17,7 @@
   - [MGraph](Graph/MGraph.js) - 利用邻接矩阵创建图
 
   - [ALGraph](Graph/ALGraph.js) - 利用邻接表创建图
+
+  - [DFS](Graph/DFS.js) - 深度优先遍历
+
+  - [BFS](Graph/BFS.js) - 广度优先遍历
