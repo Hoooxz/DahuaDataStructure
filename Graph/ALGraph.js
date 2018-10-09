@@ -1,6 +1,7 @@
 /** 邻接表 */
 
 var DFS = require('./DFS');
+var BFS = require('./BFS');
 
 /**
  * 创建一个边表结点
@@ -102,6 +103,11 @@ module.exports = function () {
     /** 深度优先遍历 */
     DFS: function () {
       DFS.ALGraphTraverse(graph);
+    },
+
+    /** 广度优先遍历 */
+    BFS: function () {
+      BFS.ALGraphTraverse(graph);
     },
 
     print: function () {
